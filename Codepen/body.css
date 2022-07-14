@@ -1,0 +1,74 @@
+/* Body styles */
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #353A42;
+    color: white;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+/* Text styles */
+.body > .text {
+    margin-top: 0px;
+    padding: 50px 0px 25px 80px;
+    font-size: 1.5em;
+}
+
+.body > .text h1 {
+    font-weight: 500;
+}
+
+.body > .text strong {
+    font-weight: bold;
+}
+
+.body > .text h2 {
+    color: #9b9494;
+    font-weight: 600;
+}
+
+.body > .text > .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 600px;
+}
+
+.body > .text > .buttons > .signup-btn {
+    background-color: #f7c95f;
+    color: black;
+
+}
+
+.body > .text > .buttons > .learn-more-btn {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+}
+
+/* Right column styles */
+.body > .right-column {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 950;
+}
+
+.body > .right-column p {
+    font-family: 'Lato', serif;
+    padding: 50px 500px 0px 0px;
+    font-size: 1.5em;
+}
+
+.body > .right-column strong {
+    color: lightblue;
+}
+
+.body > .right-column img {
+    height: 100%;
+    width: 770px;
+    box-shadow: -30px -14px 53px -17px rgba(0,0,0,0.77);
+}

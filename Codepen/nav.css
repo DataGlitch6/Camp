@@ -1,0 +1,80 @@
+/* Nav styles */
+.navigation-wrapper {  
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column > .banner-image img {
+    height: 50px;
+    padding: 5px 50px 5px 5px;
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    color: white;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+.navigation-wrapper > .center-column > .explore {
+    font-family: 'Lato', serif;
+    font-size: .5em;
+    color: #f7c95f;
+    padding-bottom: 5px;
+}
+
+.navigation-wrapper > .center-column > .explore h1 {
+    margin: 0px;
+}
+
+.navigation-wrapper > .center-column > .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Lato', serif;
+    font-weight: bold;
+}
+
+.navigation-wrapper > .center-column > .navbar > .links {
+    padding: 0px 29px 0px 0px;
+}
+
+.navigation-wrapper > .center-column > .navbar > .spark {
+    color: #9b9494;
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lato', serif;
+    font-size: 1.25em;
+    margin-left: 500px;
+    width: 550px;
+    height: 70px;  
+}
+
+.navigation-wrapper > .right-column > .create-btn, .login-btn, .signup-btn {
+    background-color: #342f3a;
+    padding: 20px 30px;
+    border-radius: 4px;
+}
+
+.navigation-wrapper > .right-column > .create-btn i {
+    color: #f7c95f;
+    padding-left: 5px;
+
+}
+
+.navigation-wrapper > .right-column > .search {
+    color: #514f4f;
+    font-size: 1.5em;
+}

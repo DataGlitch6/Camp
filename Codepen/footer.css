@@ -1,0 +1,21 @@
+/* Footer styles */
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: 'Lato', serif;
+    font-size: 1.8em;
+}
+
+.footer > .footer-content {
+    display: flex;
+    justify-content: center;
+    background-color: #342f3a;
+    color: white;
+    border: #9b9494 solid 3px;
+    padding: 10px 10px; 
+}
+
+.footer > .footer-content strong {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+}
